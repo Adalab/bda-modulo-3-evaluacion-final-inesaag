@@ -24,7 +24,7 @@ El Módulo 3 se centra en la **limpieza y transformación de datos** utilizando 
     - **Customer_Loyalty_History_Clean.csv**: Customer Loyalty History.csv limpio resultado de las transformaciónes
     - **Customer_Flight_Activity_Clean.csv**: Customer Flight Activity.csv limpio resultado de las transformaciónes
     - **Customer_Unified_Table.csv**: Tabla unificada resultado de los ejercicios
-
+- **graphs** (carpeta): En esta carpeta se han guardado los gráficos generados durante la evauación.
 
 ## Ejecución del Código
 Para ejecutar el código y completar la prueba técnica, sigue estos pasos:
