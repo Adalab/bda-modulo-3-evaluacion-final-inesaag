@@ -17,6 +17,7 @@ Estas son las transformaciones que se han realizado sobre los archivos recibidos
         - Se han detectado varios nulos (25.33%). No se han imputado de momento para no pervertir los datos, pero se deja documentado para posteriores lo siguiente:
             - Coindicen con los registros cuyo valor en la columna de educación es : .
             - La columna salary tiene muchos valores atípicos por lo que, en caso de querer imputarlos, probablemente la mediana sea una opción más segura que la media.
+            - El código necesario para buscar el mejor método de imputación y la propia imputación está preparada y comentada más adelante en el código.
         - **Cancelation Year y Cancellation Month** : Se han detectado una gran número de nulos en ambas columnas (87.7%) pero, debido a lo que trata el dato (cancelaciones), se ha asumido que no supone ningun error ya que, en el caso de no tener nulos, supondría que todos los clientes han cancelado sus cuentas.
             - Se recomienda gestionar estos datos en una tabla aparte en la base de datos.
 
@@ -56,6 +57,7 @@ La mayoría de clientes se encuentran en los tres estados más poblados de Canad
 - Interpretación de la gráfica:
 A mayor nivel educativo mayor es el promedio del salario. Siguiendo esta teoría podemos suponer que la columna de 'college', que no hemos podido analizar ya que no tenemos ningún dato de salario ene ste grupo, debería estar entre Bachelor y Master y, por lo tanto, tener un salario medio entre 72474.44 y 103733.52 pero no creo que tengamos la suficiente seguridad para afirmarlo.
 
+- Aunque se ha decidido no imputar los nulos, se ha añadido en esta parte el código necesario para buscar el mejor método de imputación y la propia imputación está ya preparada y comentada para poder ejecutarla en caso de querer hacerlo.
 ### 5. ¿Cuál es la proporción de clientes con diferentes tipos de tarjetas de fidelidad?
 
 ![Proporción de clientes según tarjeta de fidelidad](graphs/graph5.png)

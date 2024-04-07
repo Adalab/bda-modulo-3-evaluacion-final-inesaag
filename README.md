@@ -16,6 +16,7 @@ El Módulo 3 se centra en la **limpieza y transformación de datos** utilizando 
 ## Archivos 
 - **README.md** : (Este archivo) Archivo que proporciona información básica y relevante sobre el repositorio y el proyecto.
 - **evaluacion.py**: El archivo principal con el código de la evaluación.
+- **documentacion.md**: En este archivo se resumen las tareas realizadas durante toda la evaluación y las conclusiones.
 - **src** (carpeta):
     - **soporte.py**: Archivo que contiene todas las funciones necesarias para ejecutar el código principal.
 - **files** (carpeta):
